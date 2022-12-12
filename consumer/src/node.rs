@@ -344,6 +344,10 @@ impl NodeState {
         self.data().role
     }
 
+    pub fn role_description(&self) -> Option<&str> {
+        self.data().role_description.as_deref()
+    }
+
     pub fn is_hidden(&self) -> bool {
         self.data().hidden
     }
