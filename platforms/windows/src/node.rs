@@ -298,6 +298,10 @@ impl<'a> NodeWrapper<'a> {
         }
     }
 
+    fn localized_control_type(&self) -> Option<&str> {
+        self.node_state().role_description()
+    }
+
     fn name(&self) -> Option<String> {
         match self {
             Self::Node(node) => node.name(),
@@ -811,6 +815,7 @@ macro_rules! patterns {
 
 properties! {
     (ControlType, control_type),
+    (LocalizedControlType, localized_control_type),
     (Name, name),
     (IsContentElement, is_content_element),
     (IsControlElement, is_content_element),
