@@ -13,6 +13,13 @@
     * accesskit bumped from 0.10.0 to 0.10.1
     * accesskit_consumer bumped from 0.14.0 to 0.14.1
 
+## [0.8.0](https://github.com/AccessKit/accesskit/compare/accesskit_macos-v0.7.1...accesskit_macos-v0.8.0) (2023-06-24)
+
+
+### Features
+
+* Add window-based constructor to macOS subclassing adapter ([#253](https://github.com/AccessKit/accesskit/issues/253)) ([022ef04](https://github.com/AccessKit/accesskit/commit/022ef045b9f28262b738ee1ca29a4c7303061fb3))
+
 ## [0.7.1](https://github.com/AccessKit/accesskit/compare/accesskit_macos-v0.7.0...accesskit_macos-v0.7.1) (2023-06-20)
 
 

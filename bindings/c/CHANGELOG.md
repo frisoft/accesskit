@@ -14,6 +14,21 @@
   * dependencies
     * accesskit_macos bumped from 0.7.0 to 0.7.1
 
+## [0.4.0](https://github.com/AccessKit/accesskit/compare/accesskit_c-v0.3.2...accesskit_c-v0.4.0) (2023-06-24)
+
+
+### Features
+
+* Add CMake support to C bindings ([#247](https://github.com/AccessKit/accesskit/issues/247)) ([3f556c9](https://github.com/AccessKit/accesskit/commit/3f556c995e8c5eae6831a89b0173809134c1b4e7))
+* Add window-based constructor to macOS subclassing adapter ([#253](https://github.com/AccessKit/accesskit/issues/253)) ([022ef04](https://github.com/AccessKit/accesskit/commit/022ef045b9f28262b738ee1ca29a4c7303061fb3))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * accesskit_macos bumped from 0.7.1 to 0.8.0
+
 ## [0.3.0](https://github.com/AccessKit/accesskit/compare/accesskit_c-v0.2.0...accesskit_c-v0.3.0) (2023-04-25)
 
 
